@@ -8,5 +8,5 @@ jobs:
   sample:
     runs-on: ubuntu-latest
     steps:
-      - uses: Omochice/action-templates/.github/workflows/sample.yml
+      - uses: Omochice/action-templates@main/.github/workflows/sample.yml
 
