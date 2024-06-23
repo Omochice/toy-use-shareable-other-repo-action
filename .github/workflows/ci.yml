@@ -1,0 +1,12 @@
+name: sample
+
+on: push
+
+permissions: {}
+
+jobs:
+  sample:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Omochice/action-templates/.github/workflows/sample.yml
+
